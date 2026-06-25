@@ -8,6 +8,21 @@ import { motion } from "framer-motion";
 
 const projects = [
   { 
+    title: "AI Resume Analyzer", 
+    desc: "An AI-powered ATS Resume Analyzer featuring PDF parsing, ATS scoring, keyword gap analysis, and AI-generated recommendations.", 
+    image: "/ai-resume-analyzer.png",
+    overview: "An AI-powered ATS Resume Analyzer designed as a responsive production-ready SaaS application. It provides deep insights into resumes through ATS scoring and keyword gap analysis, followed by AI-generated recommendations and PDF report exports.",
+    features: ["PDF parsing", "ATS scoring", "Keyword gap analysis", "AI-generated recommendations", "PDF report export"],
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Google Gemini AI", "Vercel Serverless"],
+    architecture: "A modern SaaS application leveraging React and TypeScript for the frontend, with Vercel Serverless Functions handling backend processing and Google Gemini AI for advanced natural language analysis.",
+    challenges: "Implementing robust PDF parsing and ensuring accurate, context-aware AI recommendations for resume optimization.",
+    impact: "Delivered a production-ready SaaS tool deployed via Vercel with automated GitHub CI/CD pipelines.",
+    links: {
+      demo: "https://ai-resume-analyzer-kalpesh.vercel.app/",
+      github: "https://github.com/kalpeshwaghmare1/ai-resume-analyzer"
+    }
+  },
+  { 
     title: "Chef Cloud AI", 
     desc: "An AI-powered recipe generator built with React. Users input available ingredients and get a complete, easy-to-follow recipe using the HuggingFace Inference API.", 
    
