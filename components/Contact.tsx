@@ -36,13 +36,13 @@ export default function Contact() {
               <div className="w-16 h-16 rounded-full bg-white/10 flex items-center justify-center mb-6 text-white group-hover:scale-110 transition-transform duration-500">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
               </div>
-              <h3 className="text-xl sm:text-2xl md:text-4xl font-bold text-white mb-2 tracking-tight break-all">kalpeshwaghmare400@gmail.com</h3>
+              <h3 className="text-xl sm:text-2xl md:text-4xl font-bold text-white mb-2 tracking-tight break-all">kalpeshwaghmare.dev@gmail.com</h3>
               <p className="text-neutral-400 mb-8 max-w-md">Whether it&apos;s a new project, a collaboration, or an exciting opportunity—I&apos;d love to connect and create something meaningful together.</p>
               
               <div className="flex gap-4">
                 <Magnetic>
                   <a 
-                    href="https://mail.google.com/mail/?view=cm&fs=1&to=kalpeshwaghmare400@gmail.com" 
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=kalpeshwaghmare.dev@gmail.com" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 rounded-full bg-white hover:bg-neutral-200 text-black font-semibold transition-colors duration-300 md:cursor-none flex items-center gap-2 shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.2)]"
@@ -77,7 +77,7 @@ export default function Contact() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="relative group"
           >
-            <a href="https://linkedin.com/in/kalpesh-waghmare-18n" target="_blank" rel="noopener noreferrer" className="block relative h-full bg-white/[0.02] backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:bg-white/[0.04] hover:border-cyan-500/30 transition-all duration-500 md:cursor-none overflow-hidden group">
+            <a href="https://linkedin.com/in/kalpesh-waghmare" target="_blank" rel="noopener noreferrer" className="block relative h-full bg-white/[0.02] backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:bg-white/[0.04] hover:border-cyan-500/30 transition-all duration-500 md:cursor-none overflow-hidden group">
               <div className="absolute top-0 right-0 p-8 opacity-0 group-hover:opacity-100 transform translate-x-4 -translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-500">
                 <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
               </div>
